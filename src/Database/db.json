@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "title": "Meeting",
+      "date": "2022-06-29",
+      "time": "16:00",
+      "detail": "Meeting with client",
+      "id": 1
+    },
+    {
+      "title": "Business trip",
+      "date": "2022-06-30",
+      "time": "05:00",
+      "detail": "Meeting clients ",
+      "id": 2
+    }
+  ]
+}
