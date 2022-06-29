@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const agendasUrl = 'http://localhost:3002/users';
+const agendasUrl = 'http://localhost:3002/agenda';
 
 
 export const getAgendas = async (id) => {
