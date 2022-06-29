@@ -37,7 +37,7 @@ const EditAgenda = () => {
 
     const editAgendaDetails = async() => {
         const response = await editAgenda(id, agenda);
-        navigate('/all');
+        navigate('/');
     }
 
     const onValueChange = (e) => {
