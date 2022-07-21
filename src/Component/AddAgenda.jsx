@@ -1,4 +1,4 @@
-import react, { useState } from 'react';
+import React, { useState } from 'react';
 import { FormGroup, FormControl, InputLabel, Input, Button, styled, Typography } from '@mui/material';
 import { addAgenda } from '../Service/api';
 import { useNavigate } from 'react-router-dom';

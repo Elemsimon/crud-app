@@ -43,7 +43,7 @@ const AllAgendas = () => {
             return (
                 <>
                     <Button color="primary" variant="contained" style={{marginRight:10}} component={Link} to={`/edit/${params.row.id}`}>Edit</Button>
-                    <Button color="secondary" variant="contained" onClick={() => deleteAgendaData(params.row.id)}>Delete</Button> 
+                    <Button color="secondary" variant="contained" onClick={() => deleteAgendaData(params.row.id)} style={{backgroundColor: '#ea0000'}}>Delete</Button> 
                 </>
             )
         }
